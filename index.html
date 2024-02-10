@@ -10,53 +10,229 @@
       integrity="3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Marcela Tovar Store</title>
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
+      <nav>
         <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Avon</a></li>
-          <li><a href="#">L'bel</a></li>
-          <li><a href="#">Cyzone</a></li>
-          <li><a href="#">Esika</a></li>
-          <li><a href="#">Natura</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#modalAvon">Avon</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#modalEbel">L'bel</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#modalCyzone"
+              >Cyzone</a
+            >
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#modalEsika">Esika</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#modalNatura"
+              >Natura</a
+            >
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#modalContacto"
+              >Contacto</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
 
-    <h1>Bienvenid@ a mi tienda</h1>
+    <!-- Modales -->
+    <div class="modal" id="modalAvon">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Avon</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Cerrar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="./catalogos/REVISTA NATURA C3.pdf" download="Natura.pdf"
+              >Descargar catálogo</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modalNatura">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Natura</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Cerrar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="./catalogos/REVISTA NATURA C3.pdf" download="Natura.pdf"
+              >Descargar catálogo</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modalEbel">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">L'bel</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Cerrar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="./catalogos/REVISTA NATURA C3.pdf" download="Natura.pdf"
+              >Descargar catálogo</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modalCyzone">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Cyzone</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Cerrar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="./catalogos/REVISTA NATURA C3.pdf" download="Natura.pdf"
+              >Descargar catálogo</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modalEsika">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Esika</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Cerrar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="./catalogos/REVISTA NATURA C3.pdf" download="Natura.pdf"
+              >Descargar catálogo</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modalContacto">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h2 class="modal-title">Contáctame</h2> -->
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Cerrar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h2>Contáctame</h2>
+            <p><b>Teléfono : 317 470 0793</b></p>
+            <p><b>Correo : diamartovtap@gmail.com</b></p>
+            <h2>Sigueme en redes sociales</h2>
+            <div class="contenedor">
+              <!-- Iconos de redes sociales -->
+              <a href="https://wa.me/573174700793"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/marcela.tovar.351?mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/tovarmarcela/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/@johnwilliamreyesgaraviz7668/"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="title">
+      <h1>Bienvenid@ a mi tienda</h1>
+    </div>
 
     <div class="slider-container">
+      <div class="slider-items">
+        <img class="slider-item" src="./assets/foto1.jpg" />
+        <img class="slider-item" src="./assets/foto2.jpg" />
+        <img class="slider-item" src="./assets/foto3.jpg" />
+        <img class="slider-item" src="./assets/foto4.jpg" />
+        <img class="slider-item" src="./assets/foto5.jpg" />
+        <img class="slider-item" src="./assets/foto6.jpg" />
+        <img class="slider-item" src="./assets/foto7.jpg" />
+        <img class="slider-item" src="./assets/foto8.jpg" />
+
+        <img class="slider-item" src="./assets/foto1.jpg" />
+        <img class="slider-item" src="./assets/foto2.jpg" />
+        <img class="slider-item" src="./assets/foto3.jpg" />
+        <img class="slider-item" src="./assets/foto4.jpg" />
+      </div>
+      <div class="slider-arrow slider-prev" onclick="prevSlide()">
+        <i class="fas fa-chevron-left"></i>
+      </div>
+      <div class="slider-arrow slider-next" onclick="nextSlide()">
+        <i class="fas fa-chevron-right"></i>
+      </div>
+
       <!-- Carrusel de imágenes -->
-      <img class="slider-item" src="./assets/foto1.jpg" />
-      <img class="slider-item" src="./assets/foto2.jpg" />
-      <img class="slider-item" src="./assets/foto3.jpg" />
-      <img class="slider-item" src="./assets/foto4.jpg" />
-      <img class="slider-item" src="./assets/foto5.jpg" />
-      <img class="slider-item" src="./assets/foto6.jpg" />
-      <img class="slider-item" src="./assets/foto7.jpg" />
-      <img class="slider-item" src="./assets/foto8.jpg" />
     </div>
 
-    <h2>Sigueme en redes sociales</h2>
-    <div class="contenedor">
-      <!-- Iconos de redes sociales -->
-      <a href="https://wa.me/573174700793"
-        ><i class="fa-brands fa-whatsapp"></i
-      ></a>
-      <a href="https://www.facebook.com/marcela.tovar.351?mibextid=ZbWKwL"
-        ><i class="fa-brands fa-facebook"></i
-      ></a>
-      <a href="https://www.instagram.com/tovarmarcela/"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
-      <a href="https://www.youtube.com/@johnwilliamreyesgaraviz7668/"
-        ><i class="fa-brands fa-youtube"></i
-      ></a>
-    </div>
+    <script src="./index.js"></script>
   </body>
 </html>
