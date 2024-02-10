@@ -73,6 +73,7 @@ i {
   height: auto;
   object-fit: cover;
   scroll-snap-align: center;
+  animation: cambio 20s infinite alternate linear;
 }
 
 body {
