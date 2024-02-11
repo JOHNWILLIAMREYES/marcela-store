@@ -16,19 +16,19 @@ function updateSlider() {
   sliderItems.style.transform = 'translateX(' + transformValue + ')';
 }
 
-// $(document).ready(function () {
-//   // Mueve la lógica para abrir el modalAvon a $(document).ready
-//   $('#modalAvon').on('show.bs.modal', function (e) {
-//     console.log('avon');
-//     $.ajax({
-//       url: '/modals/modalAvon.html',
-//       dataType: 'html',
-//       success: function (data) {
-//         $('#modalAvon .modal-body').html(data);
-//       },
-//       error: function (xhr, status, error) {
-//         console.error('Error al cargar el contenido:', error);
-//       },
-//     });
-//   });
-// });
+$(document).ready(function () {
+  // Mueve la lógica para abrir el modalAvon a $(document).ready
+  $('#modalAvon').on('show.bs.modal', function (e) {
+    console.log('avon');
+    $.ajax({
+      url: '/modals/modalAvon.html',
+      dataType: 'html',
+      success: function (data) {
+        $('#modalAvon .modal-body').html(data);
+      },
+      error: function (xhr, status, error) {
+        console.error('Error al cargar el contenido:', error);
+      },
+    });
+  });
+});
